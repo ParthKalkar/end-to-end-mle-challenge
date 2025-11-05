@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "clv-prediction-api"
+version = "0.1.0"
+description = "Customer Lifetime Value Prediction API - Interview Take-Home Task"
+readme = "README.md"
+authors = ["Interview Candidate"]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.63.0"
+uvicorn = "^0.13.4"
+sqlalchemy = "^1.3.18"
+requests = "^2.25.1"
+joblib = "^1.3.2"
+scikit-learn = "^1.4.2"
+pandas = "^2.2.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^6.2"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

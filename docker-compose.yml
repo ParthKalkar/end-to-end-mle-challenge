@@ -1,0 +1,23 @@
+services:
+  app:
+    build:
+      context: .
+      target: app
+    ports:
+      - 8080:8080
+    volumes:
+      - ./database.sqlite:/app/database.sqlite
+
+  test:
+    build:
+      context: .
+      target: test
+    command: "pytest"
+    volumes:
+      - ./database.sqlite:/app/database.sqlite
+
+  train:
+    build:
+      context: .
+      target: train
+
