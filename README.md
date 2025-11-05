@@ -4,6 +4,11 @@
 
 A complete machine learning engineering solution for predicting Customer Lifetime Value (CLV) of ride-sharing passengers. Given passenger activity in the first 7 days after registration, predict their spending in the next 30 days.
 
+**Additional Files:**
+- `docs/SOLUTION.md`: Comprehensive technical documentation and implementation details
+- `docs/EXTRA_ANALYSIS.md`: Extra validation analysis comparing model predictions with actual passenger data
+- `validate_predictions.py`: Python script used for prediction validation analysis
+
 ## Features
 
 - **ML Pipeline**: Multi-model evaluation with hyperparameter tuning using GridSearchCV
@@ -96,13 +101,21 @@ A complete machine learning engineering solution for predicting Customer Lifetim
 - **Test MSE**: 1827.28
 - **Hyperparameters**: max_depth=5, min_samples_split=2, n_estimators=100
 
-## Documentation
+## 📚 Documentation
 
-See [ASSIGNMENT.md](ASSIGNMENT.md) for comprehensive documentation including:
-- Solution architecture and design decisions
-- Implementation details and API specifications
-- Testing approach and results
-- Limitations and future improvements
+### [📖 Detailed Solution & Implementation](docs/SOLUTION.md)
+Complete technical documentation including:
+- Architecture overview and design decisions
+- Implementation details for all components
+- API specifications and testing coverage
+- Model performance analysis and validation
+- Setup instructions and troubleshooting
+
+### [📊 Extra Analysis & Validation](docs/EXTRA_ANALYSIS.md)
+Additional validation analysis comparing model predictions with actual data.
+
+### [🗂️ Documentation Overview](docs/README.md)
+Complete documentation structure and quick reference guide.
 
 ## Development
 

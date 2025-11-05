@@ -1,4 +1,4 @@
-# ASSIGNMENT.md
+# SOLUTION.md - CLV Prediction API Implementation
 
 ## Overview
 
@@ -168,7 +168,7 @@ CREATE TABLE prediction_requests (
 5. **Containerization**: Updated Dockerfile to copy model and database files into the image.
 6. **Testing**: Expanded tests to cover prediction and request tracking.
 7. **File Handling**: Modified training to copy model files from container instead of volume mounts to avoid VS Code file watching issues.
-8. **Documentation**: Created this comprehensive ASSIGNMENT.md.
+8. **Documentation**: Created this comprehensive SOLUTION.md.
 
 ### Justifications
 - **Multi-Model Approach**: Ensures the best possible model is selected, improving prediction accuracy without excessive complexity.
