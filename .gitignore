@@ -152,5 +152,6 @@ model.joblib
 model_results.csv
 
 # Demo files
-*.mov
 *.mp4
+# Allow specific demo file
+!demo.mov
